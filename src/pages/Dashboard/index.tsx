@@ -1,7 +1,6 @@
 import React, { useState, useEffect, FormEvent } from 'react';
 import { Link } from 'react-router-dom';
 import { FiChevronRight } from 'react-icons/fi';
-import { FaTimes } from 'react-icons/fa';
 import { Title, Form, Repositories, Error } from './styles';
 import logoImg from '../../assets/logo.svg';
 import api from '../../services/api';
