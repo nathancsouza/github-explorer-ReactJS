@@ -59,15 +59,6 @@ const Dashboard: React.FC = () => {
     }
   }
 
-  async function handleRemoveRepository(): Promise<void> {
-    const toDelete = repositories.find((r) => r.full_name);
-
-    const response = toDelete.full_name;
-    console.log(response);
-
-    localStorage.removeItem(response);
-  }
-
   return (
     <>
       <img src={logoImg} alt="Github Explorer" />
